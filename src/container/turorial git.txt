@@ -1,0 +1,136 @@
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem
+$ git init
+Initialized empty Git repository in C:/Users/X250/Downloads/Video/asem/.git/
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ git remote add ok <!DOCTYPE html>
+bash: !DOCTYPE: event not found
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ <html>
+bash: syntax error near unexpected token `newline'
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ <head>
+bash: syntax error near unexpected token `newline'
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ <title>ayam goreng</title>
+bash: syntax error near unexpected token `newline'
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ </head>
+bash: syntax error near unexpected token `newline'
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ <body>
+bash: syntax error near unexpected token `newline'
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ tambahin baris ini
+bash: tambahin: command not found
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ tambah baris lagi
+bash: tambah: command not found
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ Ridho ganteng gak guyss !!!!
+Ridho ganteng gak guyss tambah baris lagitambah baris lagi
+bash: Ridho: command not found
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ ridho jomblo..!!
+ridho jomblo..Ridho ganteng gak guyss tambah baris lagitambah baris lagi
+bash: ridho: command not found
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ haahhaaha
+bash: haahhaaha: command not found
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ </body>
+bash: syntax error near unexpected token `newline'
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ </html>
+bash: syntax error near unexpected token `newline'
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ clear
+
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ git remote add nik https://github.com/carolusjoseph/testingbareng.git                                                 
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ git status                                                                                                            On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ git pull nik master                                                                                                   remote: Enumerating objects: 32, done.
+remote: Counting objects: 100% (32/32), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 32 (delta 9), reused 29 (delta 6), pack-reused 0
+Unpacking objects: 100% (32/32), done.
+From https://github.com/carolusjoseph/testingbareng
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> nik/master
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ git status                                                                                                            On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ git add .
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ git commit -m 'ridho jomblo'
+[master 711e021] ridho jomblo
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ git push nik master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/carolusjoseph/testingbareng.git/'
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ git push nik master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+To https://github.com/carolusjoseph/testingbareng.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/carolusjoseph/testingbareng.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+X250@DESKTOP-CTTMG0R MINGW64 ~/Downloads/Video/asem (master)
+$ git pull 
